@@ -2,6 +2,7 @@
 <img src="https://i.hizliresim.com/mht4mlq.jpeg" alt="VacuumHaxLogo" width="15%"/>
 </p
 
+
 <h1 align="center">
   VacuumHax
 </h1>
