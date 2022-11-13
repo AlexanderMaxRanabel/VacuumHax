@@ -5,7 +5,7 @@
 <h1 align="center">VacuumHax
 
 <p align="center">
-    A Minecraft 1.19 utility client for Fabric forked from MatHax
+    A Minecraft 1.19 utility client for Fabric forked from MatHax 1.7.6
 </p>
 
 
