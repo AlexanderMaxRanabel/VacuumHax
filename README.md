@@ -4,4 +4,16 @@
 
 <h1 align="center">VacuumHax
 
-<h1 align="center">Fork Of MatHax
+<p align="center">
+    A Minecraft 1.19 utility client for Fabric forked from MatHax
+</p>
+
+
+### Building
+- Clone this repository
+- Run `./gradlew build`
+
+
+## Contribution
+
+I dont currently accept pull request but you can report bugs!
