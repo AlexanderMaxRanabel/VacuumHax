@@ -216,7 +216,7 @@ public class Announcer extends Module {
         private final Setting<String> message = sg.add(new StringSetting.Builder()
             .name("message")
             .description("The chat message for placing blocks.")
-            .defaultValue("I just placed %count% %block% thanks to MatHax!")
+            .defaultValue("I just placed %count% %block%")
             .build()
         );
 
@@ -262,7 +262,7 @@ public class Announcer extends Module {
         private final Setting<String> message = sg.add(new StringSetting.Builder()
             .name("message")
             .description("The chat message for dropping items.")
-            .defaultValue("I just dropped %count% %item% thanks to MatHax!")
+            .defaultValue("I just dropped %count% %item% ")
             .build()
         );
 
@@ -308,7 +308,7 @@ public class Announcer extends Module {
         private final Setting<String> message = sg.add(new StringSetting.Builder()
             .name("message")
             .description("The chat message for picking up items.")
-            .defaultValue("I just picked up %count% %item% thanks to MatHax!")
+            .defaultValue("I just picked up %count% %item%")
             .build()
         );
 
@@ -350,7 +350,7 @@ public class Announcer extends Module {
         private final Setting<String> message = sg.add(new StringSetting.Builder()
             .name("message")
             .description("The chat message for opening a container.")
-            .defaultValue("I just opened %name% thanks to MatHax!")
+            .defaultValue("I just opened %name%")
             .build()
         );
 
