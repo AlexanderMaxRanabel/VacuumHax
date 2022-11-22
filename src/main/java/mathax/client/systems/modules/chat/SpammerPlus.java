@@ -14,7 +14,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 import java.util.List;
 
-public class Spam extends Module {
+public class SpammerPlus extends Module {
     private int messageI, timer;
 
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
@@ -23,10 +23,10 @@ public class Spam extends Module {
     // General
 
     private final Setting<List<String>> messages = sgGeneral.add(new StringListSetting.Builder()
-        .name("messages")
+        .name("Messages")
         .description("Messages to use for spam. Use %player% for a name of a random player.")
         .defaultValue(
-            "MatHax on top!",
+            "VacuumHax on top!",
             "Matejko06 on top!"
         )
         .build()
@@ -44,7 +44,7 @@ public class Spam extends Module {
         .description("The delay between specified messages in ticks.")
         .defaultValue(20)
         .min(0)
-        .sliderRange(0, 200)
+        .sliderRange(0, 100)
         .build()
     );
 
