@@ -69,6 +69,7 @@ public class AutoEZ extends Module {
             "Take the L nerd %player%! You just got ended!",
             "I just nae nae'd %player%!",
             "I am too good for %player%!"
+            "%player% got facial!"
         ))
         .visible(() -> killMode.get() == Mode.Custom)
         .build()
@@ -86,9 +87,9 @@ public class AutoEZ extends Module {
     private final Setting<Integer> delay = sgTotemPops.add(new IntSetting.Builder()
         .name("delay")
         .description("Determines how often to send totem pop messages.")
-        .defaultValue(600)
+        .defaultValue(500)
         .min(0)
-        .sliderRange(0, 600)
+        .sliderRange(0, 500)
         .build()
     );
 
@@ -113,7 +114,8 @@ public class AutoEZ extends Module {
             "%player% just lost 1 totem thanks to my skill!",
             "I just ended %player%'s totem!",
             "I just popped %player%!",
-            "I just easily popped %player%!"
+            "I just easily popped %player%!",
+            "I just made %player% to show his totems up to his ass! ";
         ))
         .visible(() -> totemMode.get() == Mode.Custom)
         .build()
