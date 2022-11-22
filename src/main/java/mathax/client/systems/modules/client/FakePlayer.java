@@ -18,13 +18,13 @@ public class FakePlayer extends Module {
     public final Setting<String> name = sgGeneral.add(new StringSetting.Builder()
         .name("name")
         .description("The name of the fake player.")
-        .defaultValue("MatHax")
+        .defaultValue("IKER_Luvely")
         .build()
     );
 
     public final Setting<Boolean> copyInv = sgGeneral.add(new BoolSetting.Builder()
         .name("copy-inv")
-        .description("Copies your exact inventory to the fake player.")
+        .description("Copies your exact inventory to the fake player.(You cant dupe it lmao)")
         .defaultValue(true)
         .build()
     );
