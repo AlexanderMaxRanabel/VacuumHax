@@ -77,7 +77,7 @@ public class MatHax implements ClientModInitializer {
     public static final IEventBus EVENT_BUS = new EventBus();
 
     public static final File GAME_FOLDER = new File(FabricLoader.getInstance().getGameDir().toString());
-    public static final File FOLDER = new File(GAME_FOLDER, "MatHax");
+    public static final File FOLDER = new File(GAME_FOLDER, "VacuumHax");
     public static final File VERSION_FOLDER = new File(FOLDER + "/" + Version.getMinecraft());
     public static final File MUSIC_FOLDER = new File(FOLDER + "/Music");
 
@@ -88,7 +88,7 @@ public class MatHax implements ClientModInitializer {
 
     public static final Logger LOG = LoggerFactory.getLogger("MatHax");
 
-    public static final String URL = "https://mathaxclient.xyz/";
+    public static final String URL = "https://github.com/AlexanderMaxRanabel/VacuumHax/tree/master";
     public static final String API_URL = "https://api.mathaxclient.xyz/";
 
     public static List<String> getDeveloperUUIDs() {
@@ -109,10 +109,10 @@ public class MatHax implements ClientModInitializer {
         return Arrays.asList(
 
             // SPLASHES
-            Formatting.RED + "MatHax on top!",
-            Formatting.GRAY + "Matejko06" + Formatting.RED + " based god",
+            Formatting.RED + "VacuumHax on top!",
+            Formatting.GRAY + "Choroalp" + Formatting.RED + " based allah",
             Formatting.RED + "MatHaxClient.xyz",
-            Formatting.RED + "MatHaxClient.xyz/Discord",
+            Formatting.RED + "https://github.com/AlexanderMaxRanabel/VacuumHax/tree/masterd",
             Formatting.RED + Version.getStylized(),
             Formatting.RED + Version.getMinecraft(),
 
@@ -129,8 +129,6 @@ public class MatHax implements ClientModInitializer {
             Formatting.YELLOW + "your mom :joy:",
             Formatting.YELLOW + "BOOM BOOM BOOM!",
             Formatting.YELLOW + "I <3 forks",
-            Formatting.YELLOW + "based",
-            Formatting.YELLOW + "Pog",
             Formatting.YELLOW + "Big Rat on top!",
             Formatting.YELLOW + "bigrat.monster",
 

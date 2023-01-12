@@ -25,7 +25,7 @@ public class AutoEXP extends Module {
 
     private final Setting<Mode> mode = sgGeneral.add(new EnumSetting.Builder<Mode>()
         .name("mode")
-        .description("Which items to repair.")
+        .description("Select an item to repair")
         .defaultValue(Mode.Both)
         .build()
     );
@@ -41,7 +41,7 @@ public class AutoEXP extends Module {
         .name("exp-slot")
         .description("The slot to replenish exp into.")
         .visible(replenish::get)
-        .defaultValue(6)
+        .defaultValue(5)
         .range(1, 9)
         .sliderRange(1, 9)
         .build()
