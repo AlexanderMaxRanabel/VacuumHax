@@ -16,4 +16,4 @@
 
 ## Contribution
 
-I dont currently accept pull request but you can report bugs!
+I Accept pull requests now !
