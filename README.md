@@ -1,4 +1,4 @@
-# VacuumHax Project is will be based on Envy client instead
+# VacuumHax Project is been discontinued from the date 1.03.2023(DD/MM/YYYY)
 
 <p align="center">
 <img src="https://i.hizliresim.com/mht4mlq.jpeg" alt="meteor-client-logo" width="15%"/>
